@@ -41,9 +41,11 @@ def show_hello():
     template = {
         "outputs": [
             {
-                "simpleImage": {
-                    "imageUrl": "https://t1.daumcdn.net/friends/prod/category/M001_friends_ryan2.jpg",
-                    "altText": "hello I'm Ryan"
+                # "simpleImage": {
+                    # "imageUrl": "https://t1.daumcdn.net/friends/prod/category/M001_friends_ryan2.jpg",
+                    # "altText": "hello I'm Ryan"
+                "simpleText": {
+                    "text": "AI"
                 }
             }
         ]
